@@ -1,0 +1,7 @@
+.wrapper {
+    flex-direction: column;
+}
+
+.wrapper > div {
+    width: 100%;
+}

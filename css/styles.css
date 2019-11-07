@@ -1,6 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .wrapper {
-    background-color: #F00;
+    /* background-color: #F00;
     width: 50%;
     height: 400px;
-    margin: 0 20%;;
+    margin: 0 20%; */
+    display: flex;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.wrapper > div {
+    width: 50%;
+    height: 500px;
+}
+
+.wrapper > div {
+    
+}
+
+.esquerda {
+    background-color: blue;
+}
+
+.direita {
+    background-color: green;
 }
